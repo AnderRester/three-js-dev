@@ -48,7 +48,7 @@ function init() {
     const material = new THREE.MeshStandardMaterial();
 
     new FBXLoader()
-        .setPath('../assets/models/')
+        .setPath('./assets/models/')
         .load('vase.fbx', function(group) {
 
             const loader = new THREE.TextureLoader()
